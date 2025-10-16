@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Review from "./review";
 
 export default function HeroSection() {
   return (
     <div className="w-full relative flex h-[632px] items-center">
       <div className="flex flex-col gap-9 items-start">
+        <Review />
         <h1
           className="text-5xl font-bold italic"
           style={{
