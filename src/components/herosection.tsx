@@ -1,11 +1,13 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
 import Review from "./review";
+import CircularText from "./ui/circulartext";
 
 export default function HeroSection() {
   return (
-    <div className="w-full relative flex h-[632px] items-center">
-      <div className="flex flex-col gap-9 items-start">
+    <div className="relative flex h-[632px] w-full items-center">
+      <div className="bg-brand-secondary absolute top-0 left-0 -z-1 -mt-[50%] -ml-[30%] h-[678px] w-[1000px] rounded-full opacity-20 [filter:blur(130.6999969482422px)]"></div>
+      <div className="flex flex-col items-start gap-9">
         <Review />
         <h1
           className="text-5xl font-bold italic"
@@ -27,12 +29,26 @@ export default function HeroSection() {
         </Button>
       </div>
       <Image
+        src="/submarca.png"
+        width={190}
+        height={190}
+        alt="Nutricionista Logomarca"
+        quality={100}
+        className="absolute top-0 right-0 z-10 -mt-10 hidden animate-[spin_30s_linear_infinite]"
+      />
+      <CircularText
+        text="Cecília Melo * Nutricionista * "
+        onHover="speedUp"
+        spinDuration={20}
+        className="custom-class absolute top-0 right-0 z-10 uppercase opacity-90"
+      />
+      <Image
         src="/Cecilia_Melo_HeroImage.png"
         width={623}
         height={592}
-        alt="Cecília Melo hero image"
+        alt="Cecília Melo heroimage"
         quality={100}
-        className="absolute bottom-0 right-0"
+        className="absolute right-0 bottom-0"
       />
     </div>
   );
