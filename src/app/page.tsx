@@ -1,4 +1,5 @@
 import AboutSection from "@/components/aboutsection/aboutsection";
+import FeaturesSection from "@/components/featuressection/featuressection";
 import Header from "@/components/header";
 import HeroSection from "@/components/herosection/herosection";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <AboutSection />
+      <FeaturesSection />
     </div>
   );
 }
