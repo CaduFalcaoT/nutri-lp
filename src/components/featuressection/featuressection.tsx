@@ -1,5 +1,6 @@
 import { FileChartLine, MessageCircle, Smartphone, Target } from "lucide-react";
 import SpotlightCard from "./featurecard";
+import { Button } from "../ui/button";
 
 export default function FeaturesSection() {
   return (
@@ -66,6 +67,16 @@ export default function FeaturesSection() {
             Online, a análise é realizada através do envio de fotos.
           </p>
         </SpotlightCard>
+      </div>
+      <div className="flex w-full justify-between">
+        {" "}
+        <p className="text-brand-primary max-w-[460px] text-justify italic">
+          Seu resultado começa com o primeiro passo. Envie uma mensagem pelo
+          WhatsApp e agende sua consulta para começarmos essa jornada juntos
+        </p>
+        <Button className="transition-all duration-300 ease-out [background:linear-gradient(257deg,#7A1520_4.53%,#FF5858_95.06%)] hover:[background:linear-gradient(257deg,#9C1E28_4.53%,#FF6B6B_95.06%)]">
+          marcar consulta
+        </Button>
       </div>
     </div>
   );

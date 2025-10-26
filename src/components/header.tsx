@@ -8,7 +8,7 @@ export default function Header() {
         alt="logo"
         height={65}
         width={284}
-        quality={80}
+        quality={100}
       />
     </header>
   );
