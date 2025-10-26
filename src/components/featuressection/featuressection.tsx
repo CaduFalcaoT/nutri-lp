@@ -9,10 +9,10 @@ export default function FeaturesSection() {
       </h2>
       <div className="flex w-full gap-5 py-16">
         <SpotlightCard
-          className="custom-spotlight-card"
-          spotlightColor="rgba(255, 166, 166, 0.6)"
+          className="custom-spotlight-card group"
+          spotlightColor="rgba(255, 255, 255, 0.4)"
         >
-          <Target className="z-10 size-16 bg-gradient-to-r from-red-500 to-red-700 bg-clip-text stroke-[1.5px] text-[#E0273B]" />
+          <Target className="z-10 size-16 stroke-[1.5px] text-[#E0273B]" />
           <h3 className="text-brand-primary z-10 text-base font-bold">
             Atendimento Completo
           </h3>{" "}
@@ -24,8 +24,8 @@ export default function FeaturesSection() {
           </p>
         </SpotlightCard>
         <SpotlightCard
-          className="custom-spotlight-card"
-          spotlightColor="rgba(255, 166, 166, 0.6)"
+          className="custom-spotlight-card group"
+          spotlightColor="rgba(255, 255, 255, 0.4)"
         >
           <Smartphone className="z-10 size-16 stroke-[1.5px] text-[#E0273B]" />
           <h3 className="text-brand-primary z-10 text-base font-bold">
@@ -38,8 +38,8 @@ export default function FeaturesSection() {
           </p>
         </SpotlightCard>
         <SpotlightCard
-          className="custom-spotlight-card"
-          spotlightColor="rgba(255, 166, 166, 0.6)"
+          className="custom-spotlight-card group"
+          spotlightColor="rgba(255, 255, 255, 0.4)"
         >
           <MessageCircle className="z-10 size-16 stroke-[1.5px] text-[#E0273B]" />
           <h3 className="text-brand-primary z-10 text-base font-bold">
@@ -53,8 +53,8 @@ export default function FeaturesSection() {
           </p>
         </SpotlightCard>
         <SpotlightCard
-          className="custom-spotlight-card"
-          spotlightColor="rgba(255, 166, 166, 0.6)"
+          className="custom-spotlight-card group"
+          spotlightColor="rgba(255, 255, 255, 0.4)"
         >
           <FileChartLine className="z-10 size-16 stroke-[1.5px] text-[#E0273B]" />
           <h3 className="text-brand-primary z-10 text-base font-bold">
