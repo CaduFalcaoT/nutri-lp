@@ -7,6 +7,7 @@ import {
   MotionValue,
   Transition,
 } from "motion/react";
+import Image from "next/image";
 interface CircularTextProps {
   text: string;
   spinDuration?: number;

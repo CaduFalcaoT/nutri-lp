@@ -6,7 +6,7 @@ import CircularText from "../ui/circulartext";
 export default function HeroSection() {
   return (
     <div className="relative mx-auto flex h-[632px] w-full max-w-[1280px] items-center p-8">
-      <div className="bg-brand-secondary absolute top-0 left-0 -z-1 -mt-[50%] -ml-[30%] h-[678px] w-[1000px] rounded-full opacity-20 [filter:blur(130.6999969482422px)]"></div>
+      <div className="absolute top-0 left-0 -z-1 -mt-[50%] -ml-[15%] h-[678px] w-[1000px] rounded-full bg-[#FF6B6B] opacity-40 [filter:blur(130px)]"></div>
       <div className="flex flex-col items-start gap-9">
         <Review />
         <h1
@@ -36,12 +36,22 @@ export default function HeroSection() {
         quality={100}
         className="absolute top-0 right-0 z-10 -mt-10 hidden animate-[spin_30s_linear_infinite]"
       />
-      <CircularText
-        text="Cecília Melo * Nutricionista * "
-        onHover="speedUp"
-        spinDuration={20}
-        className="custom-class absolute top-0 right-0 z-10 -mt-12 uppercase opacity-90"
-      />
+      <span className="group absolute top-0 right-0 z-10 -mt-12">
+        <CircularText
+          text="Cecília Melo * Nutricionista * "
+          onHover="slowDown"
+          spinDuration={20}
+          className="custom-class z-11 uppercase opacity-90"
+        />
+        <Image
+          src="/icone_logomarca.png"
+          width={64}
+          height={64}
+          className="absolute top-1/2 left-[calc(50%-1px)] -z-1 -translate-1/2 cursor-pointer opacity-75 transition-transform duration-500 ease-out group-hover:scale-120"
+          alt="icone logomarca"
+          quality={1}
+        />
+      </span>
       <Image
         src="/Cecilia_Melo_HeroImage.png"
         width={623}
