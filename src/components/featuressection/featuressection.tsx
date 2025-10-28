@@ -1,5 +1,5 @@
 import { FileChartLine, MessageCircle, Smartphone, Target } from "lucide-react";
-import SpotlightCard from "./featurecard";
+import FeatureCard from "./featurecard";
 import { Button } from "../ui/button";
 
 export default function FeaturesSection() {
@@ -9,10 +9,7 @@ export default function FeaturesSection() {
         A Estratégia por Trás dos Seus Resultados
       </h2>
       <div className="flex w-full gap-5 py-16">
-        <SpotlightCard
-          className="custom-spotlight-card group"
-          spotlightColor="rgba(255, 255, 255, 0.4)"
-        >
+        <FeatureCard className="group">
           <Target className="z-10 size-16 stroke-[1.5px] text-[#E0273B]" />
           <h3 className="text-brand-primary z-10 text-base font-bold">
             Atendimento Completo
@@ -23,11 +20,8 @@ export default function FeaturesSection() {
             um cuidado que une as frentes clínica e esportiva para atender você
             por inteiro.
           </p>
-        </SpotlightCard>
-        <SpotlightCard
-          className="custom-spotlight-card group"
-          spotlightColor="rgba(255, 255, 255, 0.4)"
-        >
+        </FeatureCard>
+        <FeatureCard className="group">
           <Smartphone className="z-10 size-16 stroke-[1.5px] text-[#E0273B]" />
           <h3 className="text-brand-primary z-10 text-base font-bold">
             Seu Plano na Palma da Mão
@@ -37,11 +31,8 @@ export default function FeaturesSection() {
             Nele, você pode consultar e acompanhar sua evolução de forma
             prática, a qualquer hora e em qualquer lugar
           </p>
-        </SpotlightCard>
-        <SpotlightCard
-          className="custom-spotlight-card group"
-          spotlightColor="rgba(255, 255, 255, 0.4)"
-        >
+        </FeatureCard>
+        <FeatureCard className="group">
           <MessageCircle className="z-10 size-16 stroke-[1.5px] text-[#E0273B]" />
           <h3 className="text-brand-primary z-10 text-base font-bold">
             Continuidade via WhatsApp
@@ -52,11 +43,8 @@ export default function FeaturesSection() {
             ajuda no mercado, analisar rótulos, fazer ajustes no plano e
             compartilhar sua evolução.
           </p>
-        </SpotlightCard>
-        <SpotlightCard
-          className="custom-spotlight-card group"
-          spotlightColor="rgba(255, 255, 255, 0.4)"
-        >
+        </FeatureCard>
+        <FeatureCard className="group">
           <FileChartLine className="z-10 size-16 stroke-[1.5px] text-[#E0273B]" />
           <h3 className="text-brand-primary z-10 text-base font-bold">
             Avaliação Corporal Detalhada
@@ -66,7 +54,7 @@ export default function FeaturesSection() {
             inclui bioimpedância (Inbody 120) e dobras cutâneas (método ISAK).
             Online, a análise é realizada através do envio de fotos.
           </p>
-        </SpotlightCard>
+        </FeatureCard>
       </div>
       <div className="flex w-full justify-between">
         {" "}

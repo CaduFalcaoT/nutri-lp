@@ -1,4 +1,5 @@
 import AboutSection from "@/components/aboutsection/aboutsection";
+import CtaSection from "@/components/ctasection/ctasection";
 import FaqSection from "@/components/faqsection/faqsection";
 import FeaturesSection from "@/components/featuressection/featuressection";
 import Header from "@/components/header";
@@ -14,6 +15,7 @@ export default function Home() {
       <FeaturesSection />
       <Testimonials />
       <FaqSection />
+      <CtaSection />
     </div>
   );
 }
