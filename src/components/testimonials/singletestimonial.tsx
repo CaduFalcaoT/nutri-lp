@@ -8,9 +8,12 @@ export default function SingleTestimonial({
 }) {
   const starsRange = [...Array(Math.round(testimonial.stars)).keys()];
   return (
-    <div className="flex w-full flex-col gap-5 p-4">
-      <Quote className="text-brand-secondary size-8 stroke-[1.5px]" />
-      <p className="text-brand-secondary italic">{testimonial.description}</p>
+    <div className="flex w-full flex-col justify-between gap-5 p-4">
+      <div className="space-y-5">
+        <Quote className="text-brand-secondary size-8 stroke-[1.5px]" />
+        <p className="text-brand-secondary italic">{testimonial.description}</p>
+      </div>
+
       <div className="flex items-center gap-2">
         <Avatar className="size-12">
           <AvatarImage src={testimonial.profilePictureURL} />

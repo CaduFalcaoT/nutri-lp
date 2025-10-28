@@ -5,21 +5,23 @@ const testimonialsContent = [
     userName: "Marcelo Correa",
     description:
       "Consulta muito boa, muito atenta a todas minhas demandas e vontades. Dieta muito fácil de seguir!",
-    profilePictureURL: "",
+    profilePictureURL:
+      "https://lh3.googleusercontent.com/a-/ALV-UjUP6UBLg1aqMHE6XDi61EcSJ_HPHlpxWDPMDEL7bv3yBSAIvoi8=w90-h90-p-rp-mo-br100",
     stars: 5,
   },
   {
-    userName: "Marcelo Correa",
+    userName: "Milena Mello",
     description:
-      "Consulta muito boa, muito atenta a todas minhas demandas e vontades. Dieta muito fácil de seguir!",
-    profilePictureURL: "",
+      "Ciça é uma nutricionista maravilhosa! Extremamente dedicada, empática, humana e competente.",
+    profilePictureURL:
+      "https://lh3.googleusercontent.com/a/ACg8ocJyhiWJISV6S4fCjHwcvwh16xjtzAHq3ApuW91nwq0l3uc5GQ=s64-c-rp-mo-br100",
     stars: 5,
   },
   {
-    userName: "Marcelo Correa",
-    description:
-      "Consulta muito boa, muito atenta a todas minhas demandas e vontades. Dieta muito fácil de seguir!",
-    profilePictureURL: "",
+    userName: "Maria Fernanda Andrade",
+    description: "Excelente em tudo que faz 👏👏👏 e o consultório é lindo!",
+    profilePictureURL:
+      "https://lh3.googleusercontent.com/a-/ALV-UjXTHJdHG3hclG6xJ1YcD-6YRTWjl_DocPkr91pQBH3FzPck6lhvXw=s64-c-rp-mo-br100",
     stars: 5,
   },
 ];
