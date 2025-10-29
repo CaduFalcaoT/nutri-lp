@@ -50,11 +50,17 @@ function Button({
   const Comp = asChild ? Slot : "button";
 
   return (
-    <Comp
-      data-slot="button"
-      className={cn(buttonVariants({ variant, size, className }))}
-      {...props}
-    />
+    <a
+      href="https://wa.me/5581983859495?text=Ol%C3%A1%2C%20Cec%C3%ADlia!%20Vi%20sua%20p%C3%A1gina%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20como%20agendar%20uma%20consulta."
+      target="_blank"
+      rel="noopener"
+    >
+      <Comp
+        data-slot="button"
+        className={cn(buttonVariants({ variant, size, className }))}
+        {...props}
+      />
+    </a>
   );
 }
 

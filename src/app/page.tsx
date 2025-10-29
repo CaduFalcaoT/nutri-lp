@@ -6,6 +6,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import HeroSection from "@/components/herosection/herosection";
 import Testimonials from "@/components/testimonials/testimonials";
+import ScrollToTopButton from "@/components/ui/scrolltotopbutton";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <FaqSection />
       <CtaSection />
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }

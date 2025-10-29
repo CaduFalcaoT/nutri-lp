@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 import Review from "./review";
 import CircularText from "../ui/circulartext";
+import Submarca from "./submarca";
 
 export default function HeroSection() {
   return (
@@ -36,22 +37,7 @@ export default function HeroSection() {
         quality={100}
         className="absolute top-0 right-0 z-10 -mt-10 hidden animate-[spin_30s_linear_infinite]"
       />
-      <span className="group absolute top-0 right-0 z-10 -mt-12">
-        <CircularText
-          text="Cecília Melo * Nutricionista * "
-          onHover="slowDown"
-          spinDuration={30}
-          className="custom-class z-11 uppercase opacity-90"
-        />
-        <Image
-          src="/icone_logomarca.png"
-          width={64}
-          height={64}
-          className="absolute top-1/2 left-[calc(50%-1px)] -z-1 -translate-1/2 cursor-pointer opacity-60 transition-transform duration-600 ease-out group-hover:scale-120"
-          alt="icone logomarca"
-          quality={100}
-        />
-      </span>
+      <Submarca />
       <Image
         src="/Cecilia_Melo_HeroImage.png"
         width={623}

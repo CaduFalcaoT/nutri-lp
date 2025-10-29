@@ -3,7 +3,10 @@ import { Button } from "../ui/button";
 
 export default function AboutSection() {
   return (
-    <div className="w-full py-16 [background:linear-gradient(50deg,_#520E1C_22.72%,_#7A1520_99.76%)]">
+    <div
+      className="w-full py-16 [background:linear-gradient(50deg,_#520E1C_22.72%,_#7A1520_99.76%)]"
+      id="aboutsection"
+    >
       <div className="mx-auto flex max-w-[1280px] items-center justify-around px-8">
         <video
           src="/Video1.mp4"

@@ -15,22 +15,21 @@ const faqItems = [
   {
     title: "Que tipo de objetivo a Cecília pode me ajudar a alcançar?",
     description:
-      "O acompanhamento é dividido em 4 etapas: um questionário pré-consulta para um atendimento mais estratégico; a consulta com anamnese e avaliação corporal; o recebimento do plano alimentar via app; e o suporte contínuo via WhatsApp para dúvidas e ajustes.",
+      "Cecília atua tanto na nutrição clínica quanto na esportiva, auxiliando em metas de emagrecimento, hipertrofia e performance, além de lidar com condições como diabetes, refluxo, TPM, doenças autoimunes e intolerância à lactose.",
   },
   {
     title: "Em quanto tempo eu recebo meu plano alimentar?",
     description:
-      "O acompanhamento é dividido em 4 etapas: um questionário pré-consulta para um atendimento mais estratégico; a consulta com anamnese e avaliação corporal; o recebimento do plano alimentar via app; e o suporte contínuo via WhatsApp para dúvidas e ajustes.",
+      "O plano alimentar é entregue em até 24 horas após a consulta (ou ao final dela) através do aplicativo exclusivo Webdiet.",
   },
   {
     title: "Existe suporte entre as consultas?",
     description:
-      "O acompanhamento é dividido em 4 etapas: um questionário pré-consulta para um atendimento mais estratégico; a consulta com anamnese e avaliação corporal; o recebimento do plano alimentar via app; e o suporte contínuo via WhatsApp para dúvidas e ajustes.",
+      "Sim. Durante todo o período de acompanhamento, você tem suporte via WhatsApp para tirar dúvidas rápidas, pedir ajuda com escolhas, analisar produtos e trocar feedbacks semanais.",
   },
   {
     title: "Qual a duração de uma consulta?",
-    description:
-      "O acompanhamento é dividido em 4 etapas: um questionário pré-consulta para um atendimento mais estratégico; a consulta com anamnese e avaliação corporal; o recebimento do plano alimentar via app; e o suporte contínuo via WhatsApp para dúvidas e ajustes.",
+    description: "As consultas têm uma duração média de 1 hora e 30 minutos.",
   },
 ];
 

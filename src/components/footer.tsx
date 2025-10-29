@@ -1,3 +1,4 @@
+"use client";
 import { Mail, Phone } from "lucide-react";
 import Image from "next/image";
 
@@ -10,8 +11,9 @@ export default function Footer() {
           alt="logo"
           height={300}
           width={300}
-          className="size-[264px] flex-none opacity-90"
+          className="size-[264px] flex-none cursor-pointer opacity-90"
           quality={100}
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         />
         <div className="border-brand-secondary/80 h-[200px] w-1 border-r-2"></div>
         <Image
