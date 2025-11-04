@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 import Review from "./review";
-import CircularText from "../ui/circulartext";
 import Submarca from "./submarca";
 
 export default function HeroSection() {

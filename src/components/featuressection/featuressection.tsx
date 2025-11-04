@@ -16,9 +16,8 @@ export default function FeaturesSection() {
           </h3>{" "}
           <p className="text-brand-secondary text-justify text-sm break-words hyphens-auto opacity-90">
             Seja qual for a sua meta (emagrecimento, hipertrofia, performance)
-            ou desafio (diabetes, TPM, refluxo, intolerâncias), Cecília oferece
-            um cuidado que une as frentes clínica e esportiva para atender você
-            por inteiro.
+            ou desafio (diabetes, TPM, refluxo, intolerâncias), Cecília integra
+            cuidado clínico e esportivo para você.
           </p>
         </FeatureCard>
         <FeatureCard className="group">
@@ -38,10 +37,9 @@ export default function FeaturesSection() {
             Continuidade via WhatsApp
           </h3>{" "}
           <p className="text-brand-secondary text-justify text-sm break-words hyphens-auto opacity-90">
-            O acompanhamento não termina na consulta. Você terá um canal direto
-            com Cecília via WhatsApp para tirar dúvidas do dia a dia, pedir
-            ajuda no mercado, analisar rótulos, fazer ajustes no plano e
-            compartilhar sua evolução.
+            Conte com um canal direto com Cecília pelo WhatsApp para tirar
+            dúvidas do dia a dia, pedir ajuda no mercado, analisar rótulos,
+            fazer ajustes no plano e compartilhar sua evolução.
           </p>
         </FeatureCard>
         <FeatureCard className="group">
@@ -51,8 +49,8 @@ export default function FeaturesSection() {
           </h3>{" "}
           <p className="text-brand-secondary text-justify text-sm break-words hyphens-auto opacity-90">
             Acompanhamento preciso da sua evolução. A avaliação presencial
-            inclui bioimpedância (Inbody 120) e dobras cutâneas (método ISAK).
-            Online, a análise é realizada através do envio de fotos.
+            inclui bioimpedância (Inbody 120) e dobras cutâneas (ISAK). Online,
+            a análise é realizada via envio de fotos.
           </p>
         </FeatureCard>
       </div>
