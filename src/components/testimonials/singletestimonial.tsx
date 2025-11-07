@@ -17,7 +17,7 @@ export default function SingleTestimonial({
       <div className="flex items-center gap-2">
         <Avatar className="size-12">
           <AvatarImage src={testimonial.profilePictureURL} />
-          <AvatarFallback className="bg-brand-secondary">
+          <AvatarFallback>
             {testimonial.userName[0].toUpperCase()}
           </AvatarFallback>
         </Avatar>

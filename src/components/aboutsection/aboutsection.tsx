@@ -8,7 +8,7 @@ export default function AboutSection() {
       className="w-full py-16 [background:linear-gradient(50deg,_#520E1C_22.72%,_#7A1520_99.76%)]"
       id="aboutsection"
     >
-      <div className="mx-auto flex max-w-[1280px] items-center justify-around px-8">
+      <div className="mx-auto flex max-w-[1280px] items-center justify-around px-5 lg:px-8">
         <video
           src="/Video1.mp4"
           playsInline
@@ -43,7 +43,7 @@ export default function AboutSection() {
             cada um e promove resultados leves para saúde, disposição e
             bem-estar.
           </p>
-          <ul className="space-y-2 text-white/90">
+          <ul className="flex w-full flex-col space-y-2 text-white/90">
             <li className="flex gap-2">
               <Check /> Resultados sem Restrições
             </li>
