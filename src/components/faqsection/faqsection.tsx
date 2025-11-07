@@ -35,17 +35,17 @@ const faqItems = [
 
 export default function FaqSection() {
   return (
-    <div className="mx-auto flex w-full max-w-[1280px] items-start gap-24 px-8 py-16">
+    <div className="mx-auto flex w-full max-w-[1280px] items-start gap-24 px-5 py-16 lg:px-8">
       <Image
         src="/CeciliaMeloFoto2.png"
         width={436}
         height={543}
-        className="flex-none rounded-4xl shadow-xl shadow-black/20"
+        className="hidden flex-none rounded-4xl shadow-xl shadow-black/20 lg:inline"
         alt="Cecilia Melo Atendimento Nutricional"
         quality={100}
       />
-      <div className="flex w-full max-w-full flex-col gap-4 pt-10">
-        <h3 className="text-brand-primary text-4xl italic">
+      <div className="flex w-full max-w-full flex-col gap-4 lg:pt-10">
+        <h3 className="text-brand-primary text-center text-[7.2vw] italic lg:text-4xl">
           Dúvida Frequentes
         </h3>
         <Accordion type="single" collapsible defaultValue="item-1">

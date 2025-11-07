@@ -4,24 +4,24 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="mx-auto flex w-full max-w-[1280px] items-center justify-between px-8 py-16">
-      <div className="flex items-center gap-12">
+    <footer className="mx-auto flex w-full max-w-[1280px] flex-col items-center justify-between gap-12 px-8 py-16 lg:flex-row lg:gap-0">
+      <div className="flex flex-col-reverse items-center gap-12 lg:flex-row">
         <Image
           src="/footer_logo.png"
           alt="logo"
           height={300}
           width={300}
-          className="size-[264px] flex-none cursor-pointer opacity-90"
+          className="size-[200px] flex-none cursor-pointer opacity-90 lg:size-[264px]"
           quality={100}
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         />
-        <div className="border-brand-secondary/80 h-[200px] w-1 border-r-2"></div>
+        <div className="border-brand-secondary/80 hidden h-[200px] w-1 border-r-2 lg:block"></div>
         <Image
           src="/slogan.png"
           alt="slogan"
           height={179}
           width={400}
-          className="aspect-auto w-[300px] flex-none opacity-90"
+          className="aspect-auto w-[264px] flex-none opacity-90 lg:w-[300px]"
           quality={100}
         />
       </div>
