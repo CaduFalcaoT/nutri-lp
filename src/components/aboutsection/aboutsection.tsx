@@ -1,5 +1,6 @@
 import { Check } from "lucide-react";
 import { Button } from "../ui/button";
+import Image from "next/image";
 
 export default function AboutSection() {
   return (
@@ -12,17 +13,35 @@ export default function AboutSection() {
           src="/Video1.mp4"
           playsInline
           controls
-          className="aspect-auto h-[645px] w-[360px] rounded-4xl"
+          className="hidden aspect-auto h-[645px] w-[360px] rounded-4xl lg:block"
           poster="/poster.jpg"
         ></video>
-        <div className="flex flex-col items-start gap-8">
-          <h3 className="mb-4 text-4xl text-white/90">Sobre Cecília Melo</h3>
-          <p className="w-[600px] text-white/90">
+
+        <div className="flex flex-col items-center gap-8 lg:items-start">
+          <h3 className="text-[7.2vw] text-white/90 lg:mb-4 lg:text-4xl">
+            Sobre Cecília Melo
+          </h3>
+          <Image
+            src="/aboutmobile.png"
+            width={360}
+            height={280}
+            className="aspect-auto w-full lg:hidden"
+            alt="Nutricionísta Cecília Melo"
+            quality={100}
+          />
+          <p className="hidden w-[600px] text-white/90 lg:inline">
             Apaixonada por transformar vidas pela nutrição, Cecília ajuda há 5
             anos pessoas a atingirem seus objetivos com equilíbrio e prazer. Sua
             abordagem personalizada combina nutrição clínica e esportiva,
             baseada em ciência, respeitando a rotina de cada um e promovendo
             resultados leves para saúde, disposição e bem-estar.
+          </p>
+          <p className="w-full text-justify text-[3.8vw] hyphens-auto text-white/90 lg:hidden">
+            Apaixonada por transformar vidas pela nutrição, Cecília ajuda há 5
+            anos pessoas a atingirem seus objetivos com equilíbrio e prazer. Sua
+            abordagem personalizada, baseada em ciência, respeita a rotina de
+            cada um e promove resultados leves para saúde, disposição e
+            bem-estar.
           </p>
           <ul className="space-y-2 text-white/90">
             <li className="flex gap-2">
