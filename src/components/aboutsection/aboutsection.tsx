@@ -25,7 +25,7 @@ export default function AboutSection() {
             src="/aboutmobile.png"
             width={360}
             height={280}
-            className="aspect-auto w-full lg:hidden"
+            className="aspect-auto w-[90%] lg:hidden"
             alt="Nutricionísta Cecília Melo"
             quality={100}
           />

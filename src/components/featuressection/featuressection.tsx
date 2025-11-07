@@ -13,7 +13,7 @@ export default function FeaturesSection() {
     <>
       <IconGradientDefs />
       <div className="mx-auto flex w-full max-w-[1280px] flex-col px-5 py-16 lg:px-8">
-        <h2 className="text-brand-secondary text-[7.2vw] italic lg:text-4xl">
+        <h2 className="text-brand-secondary text-center text-[7.2vw] italic lg:text-start lg:text-4xl">
           A Estratégia por Trás dos Seus Resultados
         </h2>
         <div className="flex w-full flex-col gap-5 py-10 lg:flex-row lg:py-16">

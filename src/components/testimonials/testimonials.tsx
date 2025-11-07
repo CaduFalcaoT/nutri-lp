@@ -1,5 +1,7 @@
+"use client";
+import { Carousel, CarouselContent, CarouselItem } from "../ui/carousel";
 import SingleTestimonial from "./singletestimonial";
-
+import Autoplay from "embla-carousel-autoplay";
 const testimonialsContent = [
   {
     userName: "Marcelo Correa",
@@ -31,21 +33,42 @@ export type Testimonial = (typeof testimonialsContent)[0];
 export default function Testimonials() {
   return (
     <div className="bg-brand-card w-full rounded-b-4xl py-16 shadow-xl">
-      <div className="mx-auto flex w-full max-w-[1280px] flex-col items-start gap-8 px-8">
+      <div className="mx-auto flex w-full max-w-[1280px] flex-col items-start gap-8 px-5 lg:px-8">
         <div className="flex flex-col gap-4">
-          <h2 className="text-brand-secondary text-4xl italic">
+          <h2 className="text-brand-secondary hidden text-[7.2vw] italic lg:inline lg:text-4xl">
             Aprovado por Quem Confia
           </h2>
-          <p className="text-brand-secondary text-sm">
+          <h2 className="text-brand-secondary text-center text-[7.2vw] italic lg:hidden lg:text-start lg:text-4xl">
+            Depoimentos
+          </h2>
+          <p className="text-brand-secondary text-center lg:text-start lg:text-sm">
             Nossa maior recompensa é a satisfação dos nossos pacientes.
-            <br /> Confira o que eles estão dizendo no Google.
+            <br />{" "}
+            <span className="hidden lg:inline">
+              Confira o que eles estão dizendo no Google.
+            </span>
           </p>
         </div>
-        <div className="flex w-full gap-5">
+        <Carousel
+          plugins={[
+            Autoplay({
+              delay: 3000,
+            }),
+          ]}
+        >
+          <CarouselContent className="max-w-[94vw]">
+            {testimonialsContent.map((t) => (
+              <CarouselItem key={t.userName} className="lg:basis-1/3">
+                <SingleTestimonial testimonial={t} />
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+        </Carousel>
+        {/* <div className="flex w-full gap-5">
           {testimonialsContent.map((t) => (
             <SingleTestimonial key={t.userName} testimonial={t} />
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
