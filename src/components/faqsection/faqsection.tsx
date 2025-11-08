@@ -35,7 +35,7 @@ const faqItems = [
 
 export default function FaqSection() {
   return (
-    <div className="mx-auto flex w-full max-w-[1280px] items-start gap-24 px-5 py-16 lg:px-8">
+    <div className="mx-auto flex w-full max-w-[1280px] flex-col items-center gap-12 px-5 py-16 lg:flex-row lg:items-start lg:gap-24 lg:px-8">
       <Image
         src="/CeciliaMeloFoto2.png"
         width={436}
@@ -44,6 +44,15 @@ export default function FaqSection() {
         alt="Cecilia Melo Atendimento Nutricional"
         quality={100}
       />
+      <Image
+        src="/faqmobile.png"
+        width={360}
+        height={360}
+        className="w-[90%] flex-none rounded-4xl shadow-lg shadow-black/20 lg:hidden"
+        alt="Cecilia Melo Atendimento Nutricional"
+        quality={100}
+      />
+
       <div className="flex w-full max-w-full flex-col gap-4 lg:pt-10">
         <h3 className="text-brand-primary text-center text-[7.2vw] italic lg:text-4xl">
           Dúvida Frequentes

@@ -22,28 +22,28 @@ export default function FeaturesSection() {
             description="Seja qual for a sua meta (emagrecimento, hipertrofia, performance)
             ou desafio (diabetes, TPM, refluxo, intolerâncias), Cecília integra
             cuidado clínico e esportivo para você."
-            icon={<IconTarget className="z-10 size-16" />}
+            icon={<IconTarget className="z-10 size-14 lg:size-16" />}
           />
           <FeatureCard
             title="Seu Plano na Palma da Mão"
             description="Receba seu plano alimentar em até 24h via aplicativo exclusivo.
             Nele, você pode consultar e acompanhar sua evolução de forma
             prática, a qualquer hora e em qualquer lugar"
-            icon={<IconSmartphone className="z-10 size-16" />}
+            icon={<IconSmartphone className="z-10 size-14 lg:size-16" />}
           />
           <FeatureCard
             title="Continuidade via WhatsApp"
             description="Conte com um canal direto com Cecília pelo WhatsApp para tirar
             dúvidas do dia a dia, pedir ajuda no mercado, analisar rótulos,
             fazer ajustes no plano e compartilhar sua evolução."
-            icon={<IconMessageCircle className="z-10 size-16" />}
+            icon={<IconMessageCircle className="z-10 size-14 lg:size-16" />}
           />
           <FeatureCard
             title="Avaliação Corporal Detalhada"
             description="Acompanhamento preciso da sua evolução. A avaliação presencial
             inclui bioimpedância (Inbody 120) e dobras cutâneas (ISAK). Online,
             a análise é realizada via envio de fotos."
-            icon={<IconFileChartLine className="z-10 size-16" />}
+            icon={<IconFileChartLine className="z-10 size-14 lg:size-16" />}
           />
         </div>
         <div className="flex w-full flex-col items-center justify-between gap-8 lg:flex-row lg:items-start lg:gap-0">

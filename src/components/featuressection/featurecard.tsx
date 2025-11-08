@@ -15,7 +15,7 @@ const FeatureCard = ({
     >
       <span className="flex items-end gap-2 lg:flex-col lg:items-center lg:gap-6">
         {icon}
-        <h3 className="text-brand-primary z-10 pb-1 text-[3.8vw] font-bold lg:text-base">
+        <h3 className="text-brand-primary z-10 text-[3.8vw] font-bold lg:text-base">
           {title}
         </h3>{" "}
       </span>
