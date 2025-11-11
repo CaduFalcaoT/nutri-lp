@@ -4,14 +4,16 @@ const FeatureCard = ({
   title = "",
   description = "",
   icon = false,
+  className = "",
 }: {
   title: string;
   description: string;
   icon: ReactNode;
+  className?: string;
 }) => {
   return (
     <div
-      className={`relative flex w-full flex-col gap-5 overflow-hidden rounded-4xl border border-none bg-[#EFEFEF] px-4 py-10 pb-12 shadow-sm transition-all duration-300 ease-in-out sm:items-center sm:gap-6 sm:hover:-translate-y-3 sm:hover:bg-[#ffffff] xl:pt-14 xl:pb-18`}
+      className={`relative flex w-full flex-col gap-5 overflow-hidden rounded-4xl border border-none bg-[#EFEFEF] px-4 py-10 pb-12 shadow-sm transition-all duration-300 ease-in-out sm:items-center sm:gap-6 sm:hover:-translate-y-3 sm:hover:bg-[#ffffff] xl:pt-14 xl:pb-18 ${className}`}
     >
       <span className="flex items-end gap-2 sm:flex-col sm:items-center sm:gap-6">
         {icon}
