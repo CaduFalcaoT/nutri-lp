@@ -33,18 +33,18 @@ export type Testimonial = (typeof testimonialsContent)[0];
 export default function Testimonials() {
   return (
     <div className="bg-brand-card w-full rounded-b-4xl py-16 shadow-xl">
-      <div className="mx-auto flex w-full max-w-[1280px] flex-col items-start gap-8 px-5 lg:px-8">
+      <div className="mx-auto flex w-full max-w-[1280px] flex-col items-start gap-8 px-5 sm:px-8">
         <div className="flex flex-col gap-4">
-          <h2 className="text-brand-secondary hidden text-[7.2vw] italic lg:inline lg:text-4xl">
+          <h2 className="text-brand-secondary hidden text-[7.2vw] italic sm:inline sm:text-4xl">
             Aprovado por Quem Confia
           </h2>
-          <h2 className="text-brand-secondary text-center text-[7.2vw] italic lg:hidden lg:text-start lg:text-4xl">
+          <h2 className="text-brand-secondary text-center text-[7.2vw] italic sm:hidden sm:text-start sm:text-4xl">
             Depoimentos
           </h2>
-          <p className="text-brand-secondary text-center lg:text-start lg:text-sm">
+          <p className="text-brand-secondary text-center sm:text-start sm:text-sm">
             Nossa maior recompensa é a satisfação dos nossos pacientes.
             <br />{" "}
-            <span className="hidden lg:inline">
+            <span className="hidden sm:inline">
               Confira o que eles estão dizendo no Google.
             </span>
           </p>
@@ -58,7 +58,10 @@ export default function Testimonials() {
         >
           <CarouselContent className="max-w-[94vw]">
             {testimonialsContent.map((t) => (
-              <CarouselItem key={t.userName} className="lg:basis-1/3">
+              <CarouselItem
+                key={t.userName}
+                className="sm:basis-1/2 xl:basis-1/3"
+              >
                 <SingleTestimonial testimonial={t} />
               </CarouselItem>
             ))}

@@ -35,12 +35,12 @@ const faqItems = [
 
 export default function FaqSection() {
   return (
-    <div className="mx-auto flex w-full max-w-[1280px] flex-col items-center gap-12 px-5 py-16 lg:flex-row lg:items-start lg:gap-24 lg:px-8">
+    <div className="mx-auto flex w-full max-w-[1280px] flex-col items-center gap-12 px-5 py-16 sm:px-8 xl:flex-row xl:items-start xl:gap-24">
       <Image
         src="/CeciliaMeloFoto2.png"
         width={436}
         height={543}
-        className="hidden flex-none rounded-4xl shadow-xl shadow-black/20 lg:inline"
+        className="hidden flex-none rounded-4xl shadow-xl shadow-black/20 xl:inline"
         alt="Cecilia Melo Atendimento Nutricional"
         quality={100}
       />
@@ -48,13 +48,13 @@ export default function FaqSection() {
         src="/faqmobile.png"
         width={360}
         height={360}
-        className="w-[90%] flex-none rounded-4xl shadow-lg shadow-black/20 lg:hidden"
+        className="w-[90%] flex-none rounded-4xl shadow-sm shadow-black/20 sm:hidden"
         alt="Cecilia Melo Atendimento Nutricional"
         quality={100}
       />
 
-      <div className="flex w-full max-w-full flex-col gap-4 lg:pt-10">
-        <h3 className="text-brand-primary text-center text-[7.2vw] italic lg:text-4xl">
+      <div className="flex w-full max-w-full flex-col gap-4 xl:pt-10">
+        <h3 className="text-brand-primary text-center text-[7.2vw] italic sm:text-[5vw] xl:text-4xl">
           Dúvida Frequentes
         </h3>
         <Accordion type="single" collapsible defaultValue="item-1">

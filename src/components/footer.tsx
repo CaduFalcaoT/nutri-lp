@@ -4,24 +4,24 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="mx-auto flex w-full max-w-[1280px] flex-col items-center justify-between gap-12 px-8 py-16 lg:flex-row lg:gap-0">
-      <div className="flex flex-col-reverse items-center gap-12 lg:flex-row">
+    <footer className="mx-auto flex w-full max-w-[1280px] flex-col items-center justify-between gap-12 px-8 py-16 sm:flex-row sm:gap-0">
+      <div className="flex flex-col-reverse items-center gap-12 sm:w-1/2 sm:flex-row sm:gap-4 xl:w-auto xl:gap-12">
         <Image
           src="/footer_logo.png"
           alt="logo"
           height={300}
           width={300}
-          className="size-[200px] flex-none cursor-pointer opacity-90 lg:size-[264px]"
+          className="size-[200px] flex-none cursor-pointer opacity-90 sm:size-[50%] xl:size-[264px]"
           quality={100}
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         />
-        <div className="border-brand-secondary/80 hidden h-[200px] w-1 border-r-2 lg:block"></div>
+        <div className="border-brand-secondary/80 hidden h-[200px] w-1 border-r-2 sm:block"></div>
         <Image
           src="/slogan.png"
           alt="slogan"
           height={179}
           width={400}
-          className="aspect-auto w-[264px] flex-none opacity-90 lg:w-[300px]"
+          className="aspect-auto w-[264px] flex-none opacity-90 sm:w-[50%] xl:w-[300px]"
           quality={100}
         />
       </div>

@@ -6,7 +6,7 @@ import CircularText from "../ui/circulartext";
 export default function Submarca() {
   return (
     <span
-      className="group absolute top-0 right-0 z-10 -mt-12 hidden lg:block"
+      className="group absolute top-0 right-0 z-10 -mt-12 hidden xl:block"
       onClick={() =>
         document
           .getElementById("aboutsection")

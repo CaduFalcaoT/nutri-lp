@@ -8,35 +8,35 @@ export default function AboutSection() {
       className="w-full py-16 [background:linear-gradient(50deg,_#520E1C_22.72%,_#7A1520_99.76%)]"
       id="aboutsection"
     >
-      <div className="mx-auto flex max-w-[1280px] items-center justify-around px-5 lg:px-8">
+      <div className="mx-auto flex max-w-[1280px] items-center justify-around px-5 sm:px-8">
         <video
           src="/Video1.mp4"
           playsInline
           controls
-          className="hidden aspect-auto h-[645px] w-[360px] rounded-4xl lg:block"
+          className="hidden aspect-auto h-[645px] w-[360px] rounded-4xl xl:block"
           poster="/poster.jpg"
         ></video>
 
-        <div className="flex flex-col items-center gap-8 lg:items-start">
-          <h3 className="text-[7.2vw] text-white/90 lg:mb-4 lg:text-4xl">
+        <div className="flex flex-col items-center gap-8 xl:items-start">
+          <h3 className="text-[7.2vw] text-white/90 sm:text-[5vw] xl:mb-4 xl:text-4xl">
             Sobre Cecília Melo
           </h3>
           <Image
             src="/aboutmobile.png"
             width={360}
             height={280}
-            className="aspect-auto w-[90%] lg:hidden"
+            className="aspect-auto w-[90%] object-cover sm:w-[70%] xl:hidden"
             alt="Nutricionísta Cecília Melo"
             quality={100}
           />
-          <p className="hidden w-[600px] text-white/90 lg:inline">
+          <p className="hidden w-[600px] text-white/90 xl:inline">
             Apaixonada por transformar vidas pela nutrição, Cecília ajuda há 5
             anos pessoas a atingirem seus objetivos com equilíbrio e prazer. Sua
             abordagem personalizada combina nutrição clínica e esportiva,
             baseada em ciência, respeitando a rotina de cada um e promovendo
             resultados leves para saúde, disposição e bem-estar.
           </p>
-          <p className="w-full text-justify text-[3.8vw] hyphens-auto text-white/90 lg:hidden">
+          <p className="w-full text-justify text-[3.8vw] hyphens-auto text-white/90 sm:text-[2vw] xl:hidden">
             Apaixonada por transformar vidas pela nutrição, Cecília ajuda há 5
             anos pessoas a atingirem seus objetivos com equilíbrio e prazer. Sua
             abordagem personalizada, baseada em ciência, respeita a rotina de
