@@ -48,6 +48,7 @@ export default function HeroSection() {
         alt="Nutricionista Logomarca"
         quality={100}
         className="absolute top-0 right-0 z-10 -mt-10 hidden animate-[spin_30s_linear_infinite]"
+        placeholder="blur"
       />
       <Submarca />
       <Image
@@ -57,6 +58,7 @@ export default function HeroSection() {
         alt="Cecília Melo heroimage"
         quality={100}
         className="absolute right-0 bottom-0 hidden xl:block"
+        placeholder="blur"
       />
     </div>
   );

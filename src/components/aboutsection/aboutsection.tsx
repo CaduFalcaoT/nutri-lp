@@ -28,6 +28,7 @@ export default function AboutSection() {
             className="aspect-auto w-[90%] object-cover sm:w-[70%] xl:hidden"
             alt="Nutricionísta Cecília Melo"
             quality={100}
+            placeholder="blur"
           />
           <p className="hidden w-[600px] text-white/90 xl:inline">
             Apaixonada por transformar vidas pela nutrição, Cecília ajuda há 5

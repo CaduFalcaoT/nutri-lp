@@ -43,6 +43,7 @@ export default function FaqSection() {
         className="hidden flex-none rounded-4xl shadow-xl shadow-black/20 xl:inline"
         alt="Cecilia Melo Atendimento Nutricional"
         quality={100}
+        placeholder="blur"
       />
       <Image
         src="/faqmobile.png"
@@ -51,6 +52,7 @@ export default function FaqSection() {
         className="w-[90%] flex-none rounded-4xl shadow-sm shadow-black/20 sm:hidden"
         alt="Cecilia Melo Atendimento Nutricional"
         quality={100}
+        placeholder="blur"
       />
 
       <div className="flex w-full max-w-full flex-col gap-4 xl:pt-10">
